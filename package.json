@@ -1,0 +1,19 @@
+{
+  "name": "blog-api",
+  "version": "0.0.0",
+  "description": "API com Node JS e o framework Fastify",
+  "main": "src/server.js",
+  "type": "module",
+  "author": {
+    "name": "Vanessa Pereira",
+    "url": "https://github.com/vanessapereiravieira"
+  },
+  "license": "MIT",
+  "scripts": {
+    "start": "node --watch ./src/server.js"
+  },
+  "dependencies": {
+    "fastify": "^5.6.2",
+    "pino-pretty": "^13.1.2"
+  }
+}
